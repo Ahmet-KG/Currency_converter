@@ -1,6 +1,8 @@
 # CurrencyConverter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
+Angular currency converter app that provides easy to use feature to convert rates of one international currency to another. Used Fixer API to get real time Foreign exchange rates and currency conversion.
+
+Live Demo => [Click Me](https://converting-currency.netlify.app/)
 
 ## Development server
 
