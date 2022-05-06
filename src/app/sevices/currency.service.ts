@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { Converts, Rates } from '../shared/rates';
 
 const headers = new HttpHeaders()
-  .set('apikey', 'wZjCx6upwrdB9bP3kKCNze2qHSQ5tqYQ');
+  .set('apikey', 'src2IqUXLfF1psRoqlQZu6wAKt93aQbs');
 
 @Injectable({
   providedIn: 'root'

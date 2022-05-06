@@ -8,8 +8,8 @@ import { Rates } from '../shared/rates';
   styleUrls: ['./converter.component.scss']
 })
 export class ConverterComponent implements OnInit {
-  amount1: number = 1;
-  amount2: number = 1;
+  amount1!: number;
+  amount2!: number;
   currency1: string = 'USD';
   currency2: string = 'EUR';
   rates: object = {};
@@ -20,9 +20,6 @@ export class ConverterComponent implements OnInit {
     this.currencyService.getRates().subscribe((items: Rates) => {
       this.rates = items.rates;
     })
-
-    this.handleFirstAmount(1);
-
   }
 
   format(number: number) {

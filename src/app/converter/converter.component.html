@@ -13,10 +13,6 @@
         <select [(ngModel)]="currency2" (change)="onSecondCurrencyChange()">
           <option *ngFor="let rate of rates | keyvalue" [value]="rate.key">{{rate.key}}</option>
         </select>
-        {{amount1}}
-        {{currency1}}<br>
-        {{amount2}}
-        {{currency2}}
       </div>
     </div>
   </div>
