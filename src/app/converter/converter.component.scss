@@ -1,0 +1,40 @@
+.mainWrapper {
+  background-image: url(../../assets/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  width: 720px;
+  margin: auto;
+  padding: 70px 40px;
+  background:rgba(255, 255, 255, 0.281);
+  color: white;
+  border-radius: 10px;
+  border: 1px solid tomato;
+}
+.wrapper input, select{
+  position: relative;
+  border-radius: 4px;
+  padding: 12px;
+  border: 2px solid #bdc3c7;
+  cursor: text;
+  overflow: hidden;
+  margin: 20px 10px 10px 0;
+  color: #2c2a2a;
+  font-weight: 600;
+}
+.wrapper input {
+
+}
+.wrapper select {
+
+}
+.text-center {
+  border-bottom: 2px solid white;
+  letter-spacing: 5px;
+}

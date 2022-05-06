@@ -1,0 +1,23 @@
+<div class="mainWrapper">
+  <div class="container">
+    <div class="wrapper">
+      <h1 class="text-center">CURRENCY</h1>
+      <div class="input-area">
+        <input type="number" [(ngModel)]="amount1" (input)="handleFirstAmount(amount1)">
+        <select [(ngModel)]="currency1" (change)="onFirstCurrencyChange()">
+          <option *ngFor="let rate of rates | keyvalue" [value]="rate.key">{{rate.key}}</option>
+        </select>
+      </div>
+      <div class="input-area">
+        <input type="number" [(ngModel)]="amount2" (input)="handleSecondAmount(amount2)">
+        <select [(ngModel)]="currency2" (change)="onSecondCurrencyChange()">
+          <option *ngFor="let rate of rates | keyvalue" [value]="rate.key">{{rate.key}}</option>
+        </select>
+        {{amount1}}
+        {{currency1}}<br>
+        {{amount2}}
+        {{currency2}}
+      </div>
+    </div>
+  </div>
+</div>
